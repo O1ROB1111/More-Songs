@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "moresongsrealnum_5",
+  "version": "${version}",
+  "name": "MORESONGSrealNum.5",
+  "description": "Adds more songs into Minecraft",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/moresongsrealnum_5/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "me.FellTomato6998.moresongsrealnum_5.client.Moresongsrealnum_5DataGenerator"
+    ],
+    "client": [
+      "me.FellTomato6998.moresongsrealnum_5.client.Moresongsrealnum_5Client"
+    ],
+    "main": [
+      "me.FellTomato6998.moresongsrealnum_5.Moresongsrealnum_5"
+    ]
+  },
+  "mixins": [
+    "moresongsrealnum_5.mixins.json",
+    {
+      "config": "moresongsrealnum_5.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
