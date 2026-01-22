@@ -1,4 +1,4 @@
-package me.FellTomato6998.moresongsrealnum_5.client;
+package me.FellTomato6998.more_songs.client;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

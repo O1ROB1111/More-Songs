@@ -1,4 +1,4 @@
-package me.FellTomato6998.moresongsrealnum_5;
+package me.FellTomato6998.more_songs;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;

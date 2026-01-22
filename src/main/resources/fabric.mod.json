@@ -7,17 +7,17 @@
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/moresongsrealnum_5/icon.png",
+  "icon": "assets/more_songs/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "me.FellTomato6998.moresongsrealnum_5.client.Moresongsrealnum_5DataGenerator"
+      "me.FellTomato6998.more_songs.client.Moresongsrealnum_5DataGenerator"
     ],
     "client": [
-      "me.FellTomato6998.moresongsrealnum_5.client.Moresongsrealnum_5Client"
+      "me.FellTomato6998.more_songs.client.Moresongsrealnum_5Client"
     ],
     "main": [
-      "me.FellTomato6998.moresongsrealnum_5.Moresongsrealnum_5"
+      "me.FellTomato6998.more_songs.more_songs"
     ]
   },
   "mixins": [
