@@ -21,9 +21,9 @@
     ]
   },
   "mixins": [
-    "moresongsrealnum_5.mixins.json",
+    "more_songs.mixin.json",
     {
-      "config": "moresongsrealnum_5.client.mixins.json",
+      "config": "more_songs.client.mixins.json",
       "environment": "client"
     }
   ],

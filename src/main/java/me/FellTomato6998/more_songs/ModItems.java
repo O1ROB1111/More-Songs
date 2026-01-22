@@ -11,7 +11,7 @@ public class ModItems {
     public static final Item APT_DISC_ITEM = registerItem("music_disc_1", new Item.Settings());
 
     private static Item registerItem(String name, Item.Settings settings) {
-        Identifier id = Identifier.of("music_disc_1", name);
+        Identifier id = Identifier.of("more-songs", name);
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, id);
         return Registry.register(Registries.ITEM, key, new Item(settings.registryKey(key)));
     }
